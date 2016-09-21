@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<meditation title="7 Minute Meditation">
+  
+  <title>The 7 Minute Meditation</title>
+  
+  <menu>
+    <item>
+        <text>Introduction Video</text>
+        <action type="VideoSegment" title="7 Minute Meditation Introduction" file="7_minute_intro" />
+    </item>
+    <item>
+        <text>The Seven Minute Meditation</text>
+        <action type="script" name="7_minute_script" />
+    </item>
+  </menu>
+  
+  <script name="7_minute_script">
+  
+      <CountdownSegment seconds="5" />
+
+      <TimedSegment title="Breath Awareness" seconds="30" />
+
+      <TimedSegment title="Full Body Scan and Relaxation" seconds="60" bell="chime" />
+
+      <TimedSegment title="Root Chakra Breathing" seconds="30" bell="chime" />
+
+      <TimedSegment title="Sacral Chakra Breathing" seconds="30" bell="chime" />
+
+      <TimedSegment title="Belly Chakra Breathing" seconds="30" bell="chime" />
+
+      <TimedSegment title="Heart Chakra Breathing" type="TimedSegment" seconds="30" bell="chime" />
+
+      <TimedSegment title="Throat Chakra Breathing" type="TimedSegment" seconds="30" bell="chime" />
+
+      <TimedSegment title="Mouth Chakra Breathing" type="TimedSegment" seconds="30" bell="chime" />
+
+      <TimedSegment title="Forehead Chakra Breathing" type="TimedSegment" seconds="30" bell="chime" />
+
+      <TimedSegment title="Top Chakra Breathing" type="TimedSegment" seconds="30" bell="chime" />
+
+      <TimedSegment title="Mindfulness Meditation" type="TimedSegment" seconds="90" bell="chime" />
+
+      <LogSegment title="Meditation Log" />
+
+      <AudioSegment title="Conclusion" file="conclusion.mp4" />
+      
+  </script>
+
+</meditation>
+

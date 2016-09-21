@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<meditation title="The 9 Chakra Meditation">
+
+  <title>The 9 Chakra Meditation</title>
+  
+  <script name="default">
+
+    <CountdownSegment seconds="5" />
+    
+    <TimedSegment title="Breath Awareness" seconds="60" />
+    
+    <TimedSegment title="Full Body Scan and Relaxation" seconds="60" bell="chime" />
+    
+    <TimedSegment title="Root Chakra Breathing" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Sacral Chakra Breathing" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Belly Chakra Breathing" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Heart Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Throat Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Mouth Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Forehead Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Top Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Higher Chakra Breathing" type="TimedSegment" seconds="120" bell="chime" />
+    
+    <TimedSegment title="Mindfulness Meditation" type="TimedSegment" seconds="300" bell="chime" />
+    
+    <LogSegment title="Meditation Log" />
+    
+    <AudioSegment title="Conclusion" file="conclusion.mp4" />
+  
+  </script>
+    
+</meditation>

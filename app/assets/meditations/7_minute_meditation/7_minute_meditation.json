@@ -1,0 +1,110 @@
+{
+
+"title"      : "The 7 Minute Meditation",
+"subtitle"   : "A journey through the chakras",
+"difficulty" : 0,
+"minutes"    : 7,
+"rootaction" : "main",
+"quickrun"   : "run_meditation",
+
+"scripts" : {
+  
+  "run_meditation":[
+    {
+      "type"    : "CountdownSegment",
+      "seconds" : 5    
+    },
+    {
+      "type"    : "TimedSegment",
+      "title"   : "Breath Awareness",
+      "seconds" : 30     
+    },
+    {
+      "type"    : "TimedSegment",
+      "title"   : "Full Body Scan and Relaxation",
+      "seconds" : 60,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",
+      "title"   : "Root Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",
+      "title"   : "Sacral Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",
+      "title"   : "Belly Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",    
+      "title"   : "Heart Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",    
+      "title"   : "Throat Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",    
+      "title"   : "Third Eye Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",    
+      "title"   : "Top Chakra Breathing",
+      "seconds" : 30,
+      "chime"   : "bell.mp3"
+    },
+    {
+      "type"    : "TimedSegment",    
+      "title"   : "Mindfulness Meditation",
+      "seconds" : 60,
+      "chime"   : "bigbell.mp3"
+    },
+    {
+      "type"    : "LogSegment",
+      "title"   : "7 Minute Meditation Log",
+      "location" : "7_minute_meditation.main_notes"
+    }
+  ]
+},
+
+"menus" : {
+
+  "main" : {
+    "title" : "The 7 Minute Meditation",
+    "top_image" : "main_menu_top.png",
+    "items" : [
+      {
+        "title"  : "Introduction to the Meditation",
+        "action" : "7_minute_intro.mp4"
+      },
+      { 
+        "title"  : "Details of the Technique",
+        "action" : "7_minute_details.mp4"
+      },
+      { 
+        "title"  : "Begin the Meditation",
+        "action" : "run_meditation"
+      }
+    ]
+  }
+
+}
+
+}
+
+
+
